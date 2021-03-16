@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "clipboard": "^2.0.8",
+    "es6-promise": "^4.2.8",
     "golden-layout": "^2.0.2",
     "jquery": "^3.6.0",
+    "promise": "^8.1.0",
     "requirejs": "^2.3.6",
+    "tslib": "^2.1.0",
     "underscore": "^1.12.1"
   }
 }

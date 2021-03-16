@@ -1,16 +1,16 @@
 define(function(require) {
   var $ = require("jquery");
   var _ = require("underscore");
-  var Cpu6502 = require("jsbeeb/6502");
-  var canvasLib = require("jsbeeb/canvas");
-  var Video = require("jsbeeb/video");
-  var Debugger = require("jsbeeb/debug");
-  var SoundChip = require("jsbeeb/soundchip");
-  var DdNoise = require("jsbeeb/ddnoise");
-  var models = require("jsbeeb/models");
-  var Cmos = require("jsbeeb/cmos");
-  var utils = require("jsbeeb/utils");
-  var fdc = require("jsbeeb/fdc");
+  var Cpu6502 = require("./jsbeeb/6502");
+  var canvasLib = require("./jsbeeb/canvas");
+  var Video = require("./jsbeeb/video");
+  var Debugger = require("./jsbeeb/debug");
+  var SoundChip = require("./jsbeeb/soundchip");
+  var DdNoise = require("./jsbeeb/ddnoise");
+  var models = require("./jsbeeb/models");
+  var Cmos = require("./jsbeeb/cmos");
+  var utils = require("./jsbeeb/utils");
+  var fdc = require(".jsbeeb/fdc");
   var Promise = require("promise");
   utils.setBaseUrl("jsbeeb/");
 
