@@ -2,5 +2,10 @@
   "name": "js",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "golden-layout": "^2.0.2",
+    "jquery": "^3.6.0",
+    "requirejs": "^2.3.6",
+    "underscore": "^1.12.1"
+  }
 }
