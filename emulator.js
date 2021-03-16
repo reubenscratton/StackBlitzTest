@@ -10,7 +10,7 @@ define(function(require) {
   var models = require("./jsbeeb/models");
   var Cmos = require("./jsbeeb/cmos");
   var utils = require("./jsbeeb/utils");
-  var fdc = require(".jsbeeb/fdc");
+  var fdc = require("./jsbeeb/fdc");
   var Promise = require("promise");
   utils.setBaseUrl("jsbeeb/");
 

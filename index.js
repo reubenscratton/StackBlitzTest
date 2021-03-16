@@ -1,3 +1,5 @@
+import {define, require} from "requirejs";
+
 require.config({
   paths: {
     jquery: "jquery",
